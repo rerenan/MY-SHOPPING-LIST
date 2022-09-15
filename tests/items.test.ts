@@ -3,8 +3,6 @@ import dotenv from "dotenv";
 import supertest from "supertest";
 import app from "../src/app";
 import itemFactory from "./factories/itemFactory";
-import { array } from 'joi';
-import { portalSuspended } from 'pg-protocol/dist/messages';
 
 dotenv.config();
 
